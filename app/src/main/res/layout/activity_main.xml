@@ -14,16 +14,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/value_rolled"
-        android:textSize="30sp" />
+        android:textSize="36sp" />
 
     <ImageView
         android:id="@+id/image_view_dice_face"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/empty_dice"
+        android:contentDescription="@string/dice_rolled_images"
         android:src="@drawable/empty_dice"
-        tools:src="@drawable/dice_1"
-        />
+        app:srcCompat="@drawable/empty_dice"
+        tools:src="@drawable/dice_1" />
 
     <Button
         android:id="@+id/button_roll"
